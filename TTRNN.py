@@ -556,8 +556,6 @@ class TT_GRU(Recurrent):
             res = K.transpose(K.reshape(res, (-1, self.tt_output_shape[k])))
         res = K.transpose(K.reshape(res, (-1, K.shape(x)[0])))
 
-        if self.bias is not None:
-            res = res + self.bias
         matrix_x = res
 
         if self.use_bias:
