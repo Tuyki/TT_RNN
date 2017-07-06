@@ -35,19 +35,19 @@ rnn_layer = TT_GRU(tt_input_shape=[16, 32], tt_output_shape=[8, 8], tt_ranks=[1,
 
 ## Experiments:
 ### For TTLayer we provide following experiments: 
-### 1. [NIPS2003 Feature Selection Challenge](../master/Experiment_NIPS2003.py)
+### 1.1. [NIPS2003 Feature Selection Challenge](../master/Experiment_NIPS2003.py)
   including 4 out of 5 Datasets at the NIPS2003 workshop on feature selection
-### 2. [Gene Expression Data](../master/Experiment_GenExpress.py)
+### 1.2. [Gene Expression Data](../master/Experiment_GenExpress.py)
   including 4 Datasets that are from the R-package spls
-### 3. [MNIST Data](../master/Experiment_MNIST.py)
-### 4. [CIFAR10 Data](../master/Experiment_CIFAR10.py)
-### 5. [Reuters News Topic Data](../master/Experiment_ReutersTopic.py)
+### 1.3. [MNIST Data](../master/Experiment_MNIST.py)
+### 1.4. [CIFAR10 Data](../master/Experiment_CIFAR10.py)
+### 1.5. [Reuters News Topic Data](../master/Experiment_ReutersTopic.py)
 
 ### For TT-RNNs we provide following experiments as in our latest paper: 
-### 1. [UCF11](../master/Experiment_UCF11.py)
-### 2. [Hollywood2](../master/Experiment_Hollywood2.py)
-### 3. [Youtube Celebrity Faces](../master/Experiment_CelebFaces.py)
-### 4. [HMDB51](../master/Experiment_HMDB51.py)
+### 2.1. [UCF11](../master/Experiment_UCF11.py)
+### 2.2. [Hollywood2](../master/Experiment_Hollywood2.py)
+### 2.3. [Youtube Celebrity Faces](../master/Experiment_CelebFaces.py)
+### 2.4. [HMDB51](../master/Experiment_HMDB51.py)
 
 ## Acknoledgement:
 I would like to thank Alexander Novikov and his colleagues for sharing their codes in lasagne and as well as a lot of first-hand experience in applying the model, without which this implementation would not have been possible. 
