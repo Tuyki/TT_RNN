@@ -123,7 +123,7 @@ from keras.optimizers import Adam
 from sklearn.metrics import average_precision_score, roc_auc_score, accuracy_score
 
 # TT Layer
-from TT_Layer import TT_Layer
+from TTLayer import TT_Layer
 
 # misc
 from keras.utils.np_utils import to_categorical
