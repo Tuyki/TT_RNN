@@ -114,25 +114,22 @@ class TT_Layer(Layer):
         tt_output_shape: a list of shapes of the same length as tt_input_shape,
             the product of which should be equal to the output dimension
         tt_ranks: a list of length len(tt_input_shape)+1, the first and last rank should only be 1
-        bias: boolean, indicating whether to use bias for the output
-        activation: activation function
-        init: initialization function
-        W_regularization: Regularization for the weight parameters, recommended to be None i.e. 0
-        b_regularization: Regularization for the bias parameters, recommended to be None i.e. 0
-        ortho_init: boolean, whether to use the orthogonal initialization, otherwise a small gaussian
-            is applied;
-        debug: boolean, when yes during compiling some dimension information will be printed, which,
-            hopefully might assist debugging;
-        init_seed: seed for initializing the weights;
+        the rest of the arguments: please refer to dense layer in keras. 
     """
 
     def __init__(self, tt_input_shape, tt_output_shape, tt_ranks,
-                 use_bias=True, activation='linear',
-                 kernel_initializer='glorot_uniform', bias_initializer='zeros',
-                 kernel_regularizer=None, bias_regularizer=None,
+                 use_bias=True,
+                 activation='linear',
+                 kernel_initializer='glorot_uniform',
+                 bias_initializer='zeros',
+                 kernel_regularizer=None,
+                 bias_regularizer=None,
                  activity_regularizer=None,
-                 kernel_constraint=None, bias_constraint=None,
-                 debug=False, init_seed=None, **kwargs):
+                 kernel_constraint=None,
+                 bias_constraint=None,
+                 debug=False,
+                 init_seed=11111986,
+                 **kwargs):
 
         tt_input_shape = np.array(tt_input_shape)
         tt_output_shape = np.array(tt_output_shape)
