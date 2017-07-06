@@ -35,7 +35,7 @@ from keras import constraints
 
 
 class TT_RNN(Recurrent):
-    """Fully-connected RNN where the output is to be fed back to input.
+    """
     # Arguments
         tt_input_shape: a list of shapes, the product of which should be equal to the input dimension
         tt_output_shape: a list of shapes of the same length as tt_input_shape,
@@ -314,7 +314,7 @@ class TT_RNN(Recurrent):
 
 
 class TT_GRU(Recurrent):
-    """Gated Recurrent Unit - Cho et al. 2014.
+    """
     # Arguments
         tt_input_shape: a list of shapes, the product of which should be equal to the input dimension
         tt_output_shape: a list of shapes of the same length as tt_input_shape,
@@ -605,9 +605,7 @@ class TT_GRU(Recurrent):
 
 
 class TT_LSTM(Recurrent):
-    """Long-Short Term Memory unit - Hochreiter 1997.
-    For a step-by-step description of the algorithm, see
-    [this tutorial](http://deeplearning.net/tutorial/lstm.html).
+    """
     # Arguments
         tt_input_shape: a list of shapes, the product of which should be equal to the input dimension
         tt_output_shape: a list of shapes of the same length as tt_input_shape,
