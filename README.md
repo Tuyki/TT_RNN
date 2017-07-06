@@ -17,8 +17,8 @@ This is especially the case, when the input contains redundant information, whic
 A Tensor-Train Recurrent Neural Network (TT-RNN), including LSTM and GRU, replaces the weight matrix mapping from input to hidden layer (the gates in case of LSTM and GRU) with a TTL. This turns out to enable RNNs to handle very high-dimensional sequential data, such as video streams, where each frame in a video forms an extremely high-dimensional input vector. 
 
 ## Implementation:
-Our TTLayer.py is a reimplementation of the terrific work by: https://github.com/Bihaqo/TensorNet with specific improvement and adjustments for Keras. Applying only keras grammar i.e. the Backend functions, this implementation is expected to utilize both Theano and TensorFlow(note yet tested) backends and compatible with other keras components. 
-We further integrate this code into the keras RNN implementations: TTRNN.py.  
+Our [TTLayer](../master/TTLayer.py) is a reimplementation of the terrific work by: https://github.com/Bihaqo/TensorNet with specific improvement and adjustments for Keras. Applying only keras grammar i.e. the Backend functions, this implementation is expected to utilize both Theano and TensorFlow backends and compatible with other keras components. 
+We further integrate these codes into the keras RNN implementations: [TTRNN.py](../master/TTRNN.py).  
 
 ## Usage:
 Once you've decided the Tensor-Train setting, including the factorization of the input and output vector as well as the tensor ranks, you can define the TT layer just in place of a usual dense one:
