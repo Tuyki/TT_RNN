@@ -167,7 +167,7 @@ else:
                             return_sequences=False,
                             dropout=0.25, recurrent_dropout=0.25, activation='tanh')
 h = rnn_layer(masked_input)
-output = Dense(output_dim=11, activation='softmax', W_regularizer=l2(alpha))(h)
+output = Dense(output_dim=11, activation='softmax', kernel_regularizer=l2(alpha))(h)
 model = Model(input, output)
 model.compile(optimizer=Adam(1e-4), loss='categorical_crossentropy', metrics=['accuracy'])
 
