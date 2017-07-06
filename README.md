@@ -55,6 +55,7 @@ Also many thanks go to Siemens AG, Corporate Technology for supporting this work
 
 ## Notes
 This implementation is still at a very early stage. There might be some warnings regarding the keras 2.x, because the code was originally developed in keras 1.x. We therefore highly appreciate insights, recommendations and critics of all kinds.
+I'm also going to upload some small subsets of the video data soon enough.
 
 ## Dependency Versions: 
 Tested with Keras 1.0.8 and Theano 0.8.2.dev., partly Keras 2.0.4 and Theano 0.9.0..
