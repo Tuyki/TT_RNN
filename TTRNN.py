@@ -82,7 +82,7 @@ class TT_RNN(Recurrent):
             the linear transformation of the recurrent state.
     # References
         - [A Theoretically Grounded Application of Dropout in Recurrent Neural Networks](http://arxiv.org/abs/1512.05287)
-        - [Tensor Train Recurrent Neural Networks for Video Classification]
+        - [Tensor Train Recurrent Neural Networks for Video Classification](https://arxiv.org/abs/1707.01786)
     """
 
     def __init__(self,
@@ -366,7 +366,7 @@ class TT_GRU(Recurrent):
         - [On the Properties of Neural Machine Translation: Encoder-Decoder Approaches](https://arxiv.org/abs/1409.1259)
         - [Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling](http://arxiv.org/abs/1412.3555v1)
         - [A Theoretically Grounded Application of Dropout in Recurrent Neural Networks](http://arxiv.org/abs/1512.05287)
-        - [Tensor Train Recurrent Neural Networks for Video Classification]
+        - [Tensor Train Recurrent Neural Networks for Video Classification](https://arxiv.org/abs/1707.01786)
     """
     def __init__(self,
                  tt_input_shape, tt_output_shape, tt_ranks,
@@ -660,7 +660,7 @@ class TT_LSTM(Recurrent):
         - [Learning to forget: Continual prediction with LSTM](http://www.mitpressjournals.org/doi/pdf/10.1162/089976600300015015)
         - [Supervised sequence labeling with recurrent neural networks](http://www.cs.toronto.edu/~graves/preprint.pdf)
         - [A Theoretically Grounded Application of Dropout in Recurrent Neural Networks](http://arxiv.org/abs/1512.05287)
-        - [Tensor Train Recurrent Neural Networks for Video Classification]
+        - [Tensor Train Recurrent Neural Networks for Video Classification](https://arxiv.org/abs/1707.01786)
     """
 
     def __init__(self,
