@@ -40,15 +40,22 @@ rnn_layer = TT_GRU(tt_input_shape=[16, 32], tt_output_shape=[8, 8], tt_ranks=[1,
 ### 1.2. [Gene Expression Data](../master/Experiment_GenExpress.py)
   including 4 Datasets that are from the R-package spls
 ### 1.3. [MNIST Data](../master/Experiment_MNIST.py)
+  as in [Novikov et al. 2015] with slight modification
 ### 1.4. [CIFAR10 Data](../master/Experiment_CIFAR10.py)
+  as in [Novikov et al. 2015] with slight modification
 ### 1.5. [Reuters News Topic Data](../master/Experiment_ReutersTopic.py)
 
 ### For TT-RNNs we provide following experiments as in our latest paper: 
 ### 2.1. [UCF11](../master/Experiment_UCF11.py)
+  video data as in [Yang et al. 2017]
 ### 2.2. [Hollywood2](../master/Experiment_Hollywood2.py)
+  video data as in [Yang et al. 2017]
 ### 2.3. [Youtube Celebrity Faces](../master/Experiment_CelebFaces.py)
+  video data as in [Yang et al. 2017]
 ### 2.4. [HMDB51](../master/Experiment_HMDB51.py)
-
+  additional experiments
+### 2.5. [FiboClass](../master/Experiment_FiboClass.py)
+  for POC and debugging purposes
 ## Acknoledgement:
 I would like to thank Alexander Novikov and his colleagues for sharing their codes in lasagne and as well as a lot of first-hand experience in applying the model, without which this implementation would not have been possible. 
 Also many thanks go to Siemens AG, Corporate Technology for supporting this work.
