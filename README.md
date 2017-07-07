@@ -1,4 +1,4 @@
-# TT_Layer
+# Tensor-Train Layer and Tensor-Train Recurrent Neural Networks (including GRU and LSTM) for Keras
 An implementation of the Tensor-Train Layer and Tensor-Train Recurrent Neural Networks for Keras, based on the existing implementation for Lasagne and Matlab.
 
 ## Reference:
