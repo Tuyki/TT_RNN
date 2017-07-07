@@ -1,0 +1,34 @@
+@inproceedings{yang2017tensortrainrnn,
+  title={Tensor-Train Recurrent Neural Networks for Video Classification},
+  author={Yang, Yinchong and Krompass, Denis and Tresp, Volker},
+  booktitle={Internation Conference on Machine Learning},
+  year={2017}
+}
+
+@misc{yang2017,
+  author        = {Yinchong Yang},
+  title         = {An Implementation of Tensor-Train Recurrent Neural Networks for Keras},
+  year          = {2017},
+  publisher     = {GitHub},
+  journal       = {GitHub repository},
+  howpublished  = {\url{https://github.com/Tuyki/TT_RNN}}
+}
+
+@inproceedings{novikov2015tensorizing,
+  title={Tensorizing neural networks},
+  author={Novikov, Alexander and Podoprikhin, Dmitrii and Osokin, Anton and Vetrov, Dmitry P},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={442--450},
+  year={2015}
+}
+
+@misc{novikov2015github,
+  author        = {Alexander Novikov},
+  title         = {A MATLAB and Theano+Lasagne implementation of the Tensor Train layer (TT-layer) of a neural network},
+  year          = {2015},
+  publisher     = {GitHub},
+  journal       = {GitHub repository},
+  howpublished  = {\url{https://github.com/Bihaqo/TensorNet}}
+}
+
+
